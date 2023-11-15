@@ -18,4 +18,7 @@ export const PersonForm = ({
         </div>
       </form>
     )
-  }
+}
+  
+export default PersonForm
+  

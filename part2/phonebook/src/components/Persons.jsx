@@ -6,7 +6,7 @@ const Person = ({ person }) => {
   )
 }
 
-export const Persons = ({ persons }) => {
+const Persons = ({ persons }) => {
   return (
     <ul style={listStyle}>
       {persons.map((person) => (
@@ -21,3 +21,5 @@ const listStyle = {
   padding: 0,
   margin: 0,
 }
+
+export default Persons
